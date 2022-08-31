@@ -1,27 +1,52 @@
 id: I33DB24AD
+legacy_id: P009204
+ocr_import_info:
+  bdrc_scan_id: W1KG12660
+  source: bdrc
+  ocr_info:
+    timestamp: '2020-03-22T22:17:49'
+    imagesfolder: images
+  batch_id: batch001
+  software_id: vision
+  expected_default_language: bo
+  op_import_options: {}
+  op_import_version: 1.0.0
+default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2020-03-22T22:18:15+00:00'
-last_modified: '2022-06-08T09:21:34.113293+00:00'
-parser: https://github.com/OpenPecha-dev/openpecha-toolkit/blob/231bba39dd1ba393320de82d4d08a604aabe80fc/openpecha/formatters/google_orc.py
+imported: '2022-08-31T03:35:26.678719+00:00'
+last_modified: 2022-08-31 11:35:31.387914
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
-  id: bdr:W1KG12660
-  title: དྲི་མེད་ཤེལ་ཕྲེང་ནས་བཤད་པའི་སྨན་གྱི་འཁྲུངས་དཔེ་མཛེས་མཚར་མིག་རྒྱན།
-  author: ''
+  id: http://purl.bdrc.io/resource/W1KG12660
+  status: http://purl.bdrc.io/admindata/StatusReleased
   access: http://purl.bdrc.io/admindata/AccessOpen
-  restrictedInChina: true
-  base:
-    5FDA:
-      image_group_id: I1KG12685
-      title: ''
+  geo_restriction:
+  - CN
+  reproduction_of: http://purl.bdrc.io/resource/MW1KG12660
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: དྲི་མེད་ཤེལ་ཕྲེང་ནས་བཤད་པའི་སྨན་གྱི་འཁྲུངས་དཔེ་མཛེས་མཚར་མིག་རྒྱན།
+  author: ཐོ་ཡོན་ཡེ་ཤེས་དོན་གྲུབ་བསྟན་པའི་རྒྱལ་མཚན།
+statistics:
+  ocr_word_mean_confidence_index: 0.5496958182990098
+  ocr_word_median_confidence_index: 0.49000000953674316
+quality: null
+bases:
+  I1KG12685:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG12685
       total_pages: 66
-      order: 1
-      base_file: 5FDA.txt
-statistics: {}
-quality: {}
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I1KG12685.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.49000000953674316
+      ocr_word_mean_confidence_index: 0.5496958182990098
+    legacy_id: v001
 copyright:
-  status: Unknown
-  notice: ''
-  info_url: null
-license: null
+  status: Public domain
+  notice: Public domain
+  info_url: https://creativecommons.org/publicdomain/mark/1.0/
+license: CC0
